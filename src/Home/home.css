@@ -1,0 +1,105 @@
+.mainhome{
+    background-color: black;
+}
+.section1{
+    /* width: 10%; */
+     height: 830px; 
+}
+.vid{
+width: 100%;
+ height: 100%; 
+ object-fit: cover;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 250px;
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.btn1, .btn2{
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.btn1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255); 
+}
+.details{
+    margin-top: -5px;
+    padding-top:20px ;
+    background-color: black;
+    display: flex;
+    gap: 15%;
+}
+.first{
+    width: 800px;
+    font-size: 20px;
+    color: white;
+    display: grid;
+    gap: 15%;
+
+}
+.second{
+    margin-left: 2%; 
+}
+.second >img{
+    width: 500px;
+    height: 750px;
+}
+
+.vaquita{
+    width: 100%;
+    background-color: black;
+    /* height: 500px; */
+    display: flex;
+    color: aliceblue;
+}
+
+.types{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.pic1 >img{
+    width: 300px;
+    height: 400px;
+}
+.pic2 >img{
+    width: 300px;
+    height: 400px;
+
+}
+.pic3 >img{
+    width: 300px;
+    height: 400px;
+
+}
+.section3{
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+.btn2{
+      color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255); 
+}
+.footer{
+    /* height: 500px; */
+}
+
+
