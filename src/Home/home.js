@@ -1,5 +1,6 @@
 import React from "react";
 import './home.css';
+import {FaQuoteRight} from 'react-icons/fa';
 
 
 const Home=() =>{
@@ -8,7 +9,8 @@ const Home=() =>{
             <div className="section1">
                 <img className="vid" src="https://res.cloudinary.com/dtu8pkzkp/image/upload/v1689051787/d6e5d8d206679a5d4c4036c7458f9586_u5f5hj.gif" alt="mars"/>
             <div className="content">
-                   <h1>SAVE THE FUTURE <br/> IT LIES HERE</h1>
+                   <h1>SAVE THE FORESTS</h1>
+                   <h3>THE FUTURE LIES HERE</h3>
                    <h5>1.6 billion of people depend on forests</h5>
                    <button className="btn1">LEARN MORE</button>
             </div>
@@ -36,16 +38,16 @@ const Home=() =>{
                 </div>
               
             </div>
-
+{/* 
             <div className="vaquita">
                 <div>
                 <h1>Polar bears</h1>
                 </div>
                 <div>
-                    <img src="https://res.cloudinary.com/dtu8pkzkp/image/upload/v1689020155/image-removebg-preview_npmjfv.png"></img>
+                    <img alt="g" src="https://res.cloudinary.com/dtu8pkzkp/image/upload/v1689020155/image-removebg-preview_npmjfv.png"></img>
                 </div>
-            </div>
-
+            </div> */}
+{/* section3 */}
               <div className="section3">
                 <h1>Types of Forest</h1>
               <div className="types">
@@ -68,6 +70,34 @@ const Home=() =>{
               <button className="btn2">SEE MORE</button>
 
               </div>
+ {/* end of section3 */}
+
+{/* SECTION4 */}
+<div className="section4">
+<h1>Forest Facts</h1>
+
+<div className="facts">
+<div className="fact1">
+<p> <FaQuoteRight/> </p>
+<p>Deforestation is a major driver of climate change, responsible for about 15% of global greenhouse gas emissions.</p>
+</div>
+
+<div className="fact2">
+<p> <FaQuoteRight/> </p>
+<p>Between 1990 and 2016, the world lost an average of 10 million hectares of forest each year.</p>
+</div>
+
+<div className="fact3">
+<p> <FaQuoteRight/> </p>
+<p>Forests are home to over 80% of the world's terrestrial biodiversity.
+They provide essential habitat for a wide variety of plants and animals, including many that are endangered or threatened.
+</p>
+</div>
+</div>
+</div>
+
+{/* END OF SECTION4 */}
+
             <div className="footer">
             <h4>Made by Kevine </h4>
 
